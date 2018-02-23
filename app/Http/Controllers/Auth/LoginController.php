@@ -85,6 +85,5 @@ class LoginController extends Controller
            return redirect()->To('home');
 
          }
-
     }
 }
