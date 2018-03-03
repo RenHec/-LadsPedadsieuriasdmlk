@@ -7,15 +7,15 @@ class RolSeeder extends Seeder
     public function run()
     {
       $rol = factory(App\Rol::class)->create([
-        'name'=>'ADMINISTRADOR';
+        'name'=>'ADMINISTRADOR'
       ]);
 
       $rol = factory(App\Rol::class)->create([
-        'name'=>'GERENTE';
+        'name'=>'GERENTE'
       ]);
 
       $rol = factory(App\Rol::class)->create([
-        'name'=>'EMPLEADO';
+        'name'=>'EMPLEADO'
       ]);
     }
 }

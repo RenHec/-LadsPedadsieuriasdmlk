@@ -7,19 +7,19 @@ class CompanySeeder extends Seeder
     public function run()
     {
       $company = factory(App\Company::class)->create([
-       'name' => 'CLARO';
+       'name' => 'CLARO'
       ]);
 
       $company = factory(App\Company::class)->create([
-       'name' => 'TIGO';
+       'name' => 'TIGO'
       ]);
 
       $company = factory(App\Company::class)->create([
-       'name' => 'MOVISTAR';
+       'name' => 'MOVISTAR'
       ]);
 
       $company = factory(App\Company::class)->create([
-       'name' => 'LINEA FIJA';
+       'name' => 'LINEA FIJA'
       ]);
     }
 }

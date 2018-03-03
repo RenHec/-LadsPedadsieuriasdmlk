@@ -5,7 +5,7 @@ use Faker\Generator as Faker;
 $factory->define(App\User::class, function (Faker $faker) {
     return [
       'dpi' => null,
-      'first_name' => null;
+      'first_name' => null,
       'second_name' => null,
       'first_last_name' => null,
       'second_last_name' => null,
